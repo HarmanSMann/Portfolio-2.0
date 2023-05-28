@@ -1,49 +1,6 @@
 header {
-  background-color: #b9b9b9;
-  padding: 15px;
+  background-color: #b6b6b6;
+  padding: 30px;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-}
 
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-left: 15px;
-}
-
-a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.navbar-nav {
-  animation: iconAppear 1s forwards;
-}
-
-/* Media query for mobile devices */
-
-@keyframes iconAppear {
-  0% {
-    transform: scale(0);
-  }
-  80% {
-    transform: scale(1.25);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.nav-item {
-  margin: 0 10px;
-}

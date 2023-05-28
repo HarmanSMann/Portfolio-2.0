@@ -1,0 +1,25 @@
+        {/* 
+.navbar-nav {
+  animation: iconAppear 1s forwards;
+}
+@keyframes iconAppear {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+        
+        
+        <ul className="navbar-nav">
+              <a className="nav-link" href="https://example.com">
+                <FontAwesomeIcon icon={faLinkedin} style={{ color: 'inherit' }} />
+              </a>
+              <a className="nav-link" href="https://example.com">
+                <FontAwesomeIcon icon={faGithub} style={{ color: 'inherit' }} />
+              </a>
+          </ul> */}

@@ -1,13 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from '../src/Components/Navigation/Header';
+import React from 'react';
 
-function App() {
+const App = () => {
   return (
     <>
-      <Header/>
+    {/* 
+    Welcome
+    About me -> link buttons to: linkedin, github
+    Tech Stack
+    Projects
+    Contact me
+    */}
     </>
   );
-}
+};
 
 export default App;
