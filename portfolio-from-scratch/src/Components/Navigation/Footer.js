@@ -17,7 +17,7 @@ const Footer = () => {
           <ul className="footer-nav-list">
             <li className="footer-nav-item">
               <button className="footer-button">
-                <FontAwesomeIcon icon={faHome} />
+                <FontAwesomeIcon icon={faHome}/>
                 <span className="footer-button-text">Home</span>
               </button>
             </li>
