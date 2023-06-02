@@ -1,4 +1,5 @@
 import React from "react";
+import "./Hello.css";
 
 const Hello = () => {
   const message = "Hello there, I'm Harman An Aspiring Software Developer";
@@ -35,7 +36,7 @@ const Hello = () => {
 
   return (
     <>
-      <div>
+      <div className="container">
         {splitText(message).map((char, index) => (
           <span
             key={index}
@@ -46,6 +47,16 @@ const Hello = () => {
             {char}
           </span>
         ))}
+        <div class="cube_container">
+          <div class="cube">
+            <div class="face front">Front-end</div>
+            <div class="face back">Back-end</div>
+            <div class="face right">Database</div>
+            <div class="face left">DevOps</div>
+            <div class="face top">Mobile</div>
+            <div class="face bottom">UI/UX</div>
+          </div>
+        </div>
       </div>
     </>
   );
