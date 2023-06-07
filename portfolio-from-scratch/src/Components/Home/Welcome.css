@@ -1,0 +1,60 @@
+.WelcomePage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: background-color 1s;
+  }
+  
+  .WelcomePage.finished {
+    background-color: blue;
+  }
+  
+  .Ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 10%;
+    rotate: calc(+39);
+    background-color: white;
+    transform: translateX(-100%);
+    z-index: 0;
+    animation: ribbonAnimation 2s ease-in-out forwards;
+  }
+  
+  @keyframes ribbonAnimation {
+    0% {
+      transform: translateX(-100%);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20%) translateY(-50%);
+    }
+    75% {
+      transform: translateX(40%) translateY(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .MessageContainer {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .Message {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  

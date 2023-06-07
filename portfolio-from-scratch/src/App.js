@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './Components/Navigation/Header'
-import Hello from './Components/Home/Hello'
+import Intro from './Components/Home/Intro'
 import Footer from './Components/Navigation/Footer'
 
 const App = () => {
   return (
     <>
       <Header/>
-      <Hello/>
+      <Intro/>
       <Footer/>
     {/* 
     Welcome

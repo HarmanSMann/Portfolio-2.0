@@ -1,0 +1,50 @@
+.intro-message {
+    position: relative;
+    top: -100px;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+  }
+  
+  .intro-message.transition {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .intro-message.transition .job-title {
+    animation: slide-In-Out 0.5s forwards;
+  }
+
+  .intro-container {
+    display: flex;
+  }
+  
+  .intro-text {
+    margin: 0;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .intro-message {
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+
+  
+  @keyframes slide-In-Out {
+    0% {
+      
+      transform: translateY(-100%);
+      visibility: 0%;
+    }
+    50% {
+        transform: translateY(0);
+        visibility: 100%;
+        
+    }
+    100% {
+        transform: translateY(100%);
+        visibility: 0%;
+    }
+  }
+  
